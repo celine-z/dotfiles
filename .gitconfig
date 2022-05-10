@@ -1,0 +1,12 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[core]
+	editor = code -w
+[include]
+	path = /Users/celinezhang/.config/dev/gitconfig
+[user]
+	name = Celine Zhang
+	email = celine.zhang@shopify.com
