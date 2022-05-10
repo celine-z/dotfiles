@@ -2,8 +2,8 @@
 
 DOTFILES_ROOT=$(pwd -P)
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install antigen
+curl -L git.io/antigen > ~/antigen.zsh
 
 # link files
 ln -sf $DOTFILES_ROOT/.gitconfig ~/.gitconfig
